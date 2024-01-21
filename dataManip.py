@@ -19,3 +19,27 @@ x = {'Name': ['Rose','John', 'Jane', 'Mary'], 'ID': [1, 2, 3, 4], 'Department': 
 
 df2 = pd.DataFrame(x)
 print(df2)
+print(type(df2))
+
+#Fourth Data
+
+students = {'Student':['Ramesh','Suresh','Satish','Ella'],'Age':[27,24,22,32],'Course':['Python','Data Structures','Machine Learning','Seminar'],
+            'State':['Orisa','Karnataka','Rajasthan','Bihar'],'Marks':[85,72,89,69]}
+df3 =pd.DataFrame(students)
+print(df3)
+
+b=df3[['Marks']]
+print(b)
+
+c=df3[['Course','State']]
+print(c)
+
+#Exercise 2
+
+print(df3.iloc[0,2])
+print(df3.loc[2,'Marks'])
+
+df4 = df3
+
+print(df4)
+
