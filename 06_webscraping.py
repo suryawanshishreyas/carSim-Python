@@ -61,9 +61,10 @@ tables = pd.read_html(website)
 print(tables)
 print(tables[0])
 
+A= ((1),[2,3],[4])
+print(A[2][0])
 
-
-
+'A' in {"A","B"}
 
 
 
